@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # set environmental variable
-export RNAVIEW="/RNAVIEW"
+export RNAVIEW="$HOME/RNAVIEW"
 
 
 # Was doing here so it always has most up to date public version but maybe build takes too long? And 
