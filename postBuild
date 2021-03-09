@@ -9,34 +9,13 @@ make && make clean
 cd ~
 rm RNAVIEW.tar.gz
 
-# Add RNAVIEW to the path
-mkdir -p ~/.local/bin
-cd ~/.local/bin
-ln -s ~/RNAVIEW/bin/rnaview RNAVIEW
-ln -s ~/RNAVIEW/bin/rnaview rnaview
-cd ~
-
 # set environmental variable
-export RNAVIEW="/RNAVIEW"
-export rnaview="/RNAVIEW"
-
+export RNAVIEW="$HOME/RNAVIEW"
+export PATH=$RNAVIEW/bin:$PATH
 
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
 git clone https://github.com/fjossinet/RNArtistCore.git
 cd RNArtistCore/
 git pull
 mvn clean package
-
-
-### OLD SOURCE STUFF BELOW FROM failed attempt to install chimera in JupyterDesktop Binder at https://github.com/fomightez/Jupyter-desktop_with_chimera
-# Install Chimera
-# based on https://www.cgl.ucsf.edu/chimera/data/downloads/1.14/linux_x86_64.html
-#chmod +x chimera-1.14-linux_x86_64.bin
-
-
-# Add Chimera to the path
-#mkdir -p ~/.local/bin
-# to create alias for bendIt ("~/.local/bin" is in the PATH)
-#cd ~/.local/bin
-#ln -s ~/CHIMERA/bin/chimera chimera
 
