@@ -9,10 +9,6 @@ make && make clean
 cd ~
 rm RNAVIEW.tar.gz
 
-# set environmental variable
-export RNAVIEW="$HOME/RNAVIEW"
-export PATH=$RNAVIEW/bin:$PATH
-
 # retrieve rnartistcore and build  Kotlin library to describe and plot RNA secondary structures
 git clone https://github.com/fjossinet/RNArtistCore.git
 cd RNArtistCore/
