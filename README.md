@@ -5,7 +5,7 @@ Launchable via MyBinder version of RNArtistCore,  see [RNArtistCore on GitHub](h
 
 Click on any `launch binder` badge on this page to begin.
 
-A session will launch with RNArtist all set to go and a demonstration in a Jupyter Notebook that you can step through.
+A session will launch with RNArtistCore all set to go and a demonstration in a Jupyter Notebook that you can step through.
 
 -----
 
