@@ -1,4 +1,4 @@
-# RNArtistCore-binder
+# RNArtistCore Demo using the MyBinder Cloud Service
 Launchable via MyBinder version of RNArtistCore,  see [RNArtistCore on GitHub](https://github.com/fjossinet/RNArtistCore)
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/fjossinet/RNArtistCore-binder/HEAD?filepath=RNArtist%20demo.ipynb)
