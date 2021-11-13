@@ -16,4 +16,4 @@ git pull
 mvn clean package
 
 #to be version agnostic in the jar name
-RUN ln -s $(ls ~/RNArtistCore/target/rnartistcore*with-dependencies.jar) ~/RNArtistCore/target/rnartistcore_with-dependencies.jar
+ln -s $(ls ~/RNArtistCore/target/rnartistcore*with-dependencies.jar) ~/RNArtistCore/target/rnartistcore_with-dependencies.jar
